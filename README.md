@@ -31,4 +31,4 @@ Logistic regression, random forest and XGBoost are used for prediction. Imbalanc
 
 Below are the defaulter accuracy and total cost for each cutoff point (threshold) from 0.4 to 0.9. The default accuracy is high and the overall cost is cheap when the cutoff point is less than 0.5. As a result, applications with a defaulter probability of less than 0.5 should be authorised as soon as possible. When the cutoff value is higher than 0.6, the defaulter accuracy declines, while the bank's total cost skyrockets. As a result, applications having a defaulter probability greater than 0.6 should be rejected immediately. Auditors or specialists should be included in the decision-making process if the application's defaulter probability is between 0.5 and 0.6.
 
-[!alt text](cutoff.png)
+![alt text](cutoff.png)
